@@ -7,7 +7,7 @@ import { TeamData } from './types';
 import { Settings, Trophy, RefreshCw } from 'lucide-react';
 
 // The Google Sheet published as CSV
-const DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQu5IybXYem-1ye4Zaptucy0A2PMEg65YiZgjVZW_3qzLZRuldypoAd3aoI1djjRvAjP6b5HIt7KYRN/pub?output=csv";
+const DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQR6TcQTcaxCxl_RQ65RRd6TZTRrd_c0PDepxY7rso3CbYqV5HSUlejC7HjHfyfD8tMDaU1m4YOiiN7/pub?output=csv";
 
 const App: React.FC = () => {
     const [data, setData] = useState<TeamData[]>([]);
